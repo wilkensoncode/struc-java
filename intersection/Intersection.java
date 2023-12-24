@@ -1,6 +1,10 @@
 package intersection;
 
-import java.util.*;
+import java.util.Set;
+import java.util.HashSet;
+import java.util.List;
+import java.util.ArrayList;
+
 
 public class Intersection {
     public static void main(String[] args) {

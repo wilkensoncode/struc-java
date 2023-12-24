@@ -9,7 +9,7 @@ public class Anagrams {
 
         System.out.println(mapAnagrams("restful").equals(mapAnagrams("fluster")));
 
-//        System.out.println(arrAnagrams("ana", "naa"));
+        System.out.println(arrAnagrams("ana", "naa"));
     }
 
     public static Map<Character, Integer> mapAnagrams(String s1) {

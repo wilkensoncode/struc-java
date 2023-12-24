@@ -1,7 +1,5 @@
 package uncompress;
 
-import java.util.Arrays;
-
 public class Uncompress {
     public static void main(String[] args) {
         System.out.println(uncompress("55y"));
