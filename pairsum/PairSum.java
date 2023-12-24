@@ -12,9 +12,8 @@ public class PairSum {
         Map<Integer, Integer> map = new HashMap<>();
         for (int i = 0; i < list.size(); i++) {
             int comp = target - list.get(i);
-            if (map.containsKey(comp)) {
+            if (map.containsKey(comp))
                 return List.of(map.get(comp), i);
-            }
             map.put(list.get(i), i);
         }
         return null;
