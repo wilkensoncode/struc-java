@@ -7,8 +7,7 @@ public class listValues {
     public static void main(String[] args) {
 
         Node<String> x = new Node<>("x");
-        Node<String> y = new Node<>("y");
-        x.next = y;
+        x.next = new Node<>("y");
         List<String> result = linkedListValuesRecur(x);
 //        List<String> result = linkedListValues(x);
         System.out.println(result);
@@ -24,7 +23,7 @@ public class listValues {
         }
     }
 
-    public static List<String> linkedListValues(Node<String> head) {
+    static List<String> linkedListValues(Node<String> head) {
         List<String> result = new ArrayList<>();
         Node<String> current = head;
         while (current != null) {
