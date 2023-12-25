@@ -1,4 +1,4 @@
-package mostfreqchr;
+package arrayString.mostfreqchr;
 import java.util.Map;
 import java.util.HashMap;
 

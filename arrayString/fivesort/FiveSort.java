@@ -1,4 +1,4 @@
-package fivesort;
+package arrayString.fivesort;
 
 import java.util.ArrayList;
 import java.util.Collections;

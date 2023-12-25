@@ -1,4 +1,4 @@
-package compress;
+package arrayString.compress;
 
 public class Compress {
     public static void main(String[] args) {
@@ -25,8 +25,8 @@ public class Compress {
 }
 
 // time O(n)
-//compress
-//Write a method, compress, that takes in a string as an argument.
+//arrayString.compress
+//Write a method, arrayString.compress, that takes in a string as an argument.
 // The method should return a compressed version of the string where
 // consecutive occurrences of the same characters are compressed into
 // the number of occurrences followed by the character. Single character

@@ -1,4 +1,4 @@
-package uncompress;
+package arrayString.uncompress;
 
 public class Uncompress {
     public static void main(String[] args) {
@@ -27,8 +27,8 @@ public class Uncompress {
 
 // time complexity: O(nm)
 // space complexity: O(nm)
-//uncompress
-//Write a method, uncompress, that takes in a string as an argument.
+//arrayString.uncompress
+//Write a method, arrayString.uncompress, that takes in a string as an argument.
 // The input string will be formatted into multiple groups according to the following pattern:
 //
 //<number><char>

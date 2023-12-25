@@ -1,8 +1,11 @@
-package anagrams;
+package arrayString.anagrams;
 
 
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 public class Anagrams {
     public static void main(String[] args) {
@@ -10,6 +13,7 @@ public class Anagrams {
         System.out.println(mapAnagrams("restful").equals(mapAnagrams("fluster")));
 
         System.out.println(arrAnagrams("ana", "naa"));
+
     }
 
     public static Map<Character, Integer> mapAnagrams(String s1) {
@@ -37,7 +41,7 @@ public class Anagrams {
 
 //len 1 and len 2 O(n + m)
 
-//anagrams
-//Write a method, anagrams, that takes in two strings as arguments.
-// The method should return a boolean indicating whether or not the strings are anagrams.
+//arrayString.anagrams
+//Write a method, arrayString.anagrams, that takes in two strings as arguments.
+// The method should return a boolean indicating whether or not the strings are arrayString.anagrams.
 // Anagrams are strings that contain the same characters, but in any order.

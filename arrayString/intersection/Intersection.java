@@ -1,4 +1,4 @@
-package intersection;
+package arrayString.intersection;
 
 import java.util.Set;
 import java.util.HashSet;
@@ -21,8 +21,8 @@ public class Intersection {
 }
 
 //linear
-//intersection
-//        Write a method, intersection, that takes in two Lists, a,b,
+//arrayString.intersection
+//        Write a method, arrayString.intersection, that takes in two Lists, a,b,
 //        as arguments. The method should return a new List containing
 //        elements that are in both of the two Lists.
 //        You may assume that each input List does not contain

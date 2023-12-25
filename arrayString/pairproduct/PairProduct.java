@@ -1,4 +1,4 @@
-package pairproduct;
+package arrayString.pairproduct;
 
 import java.util.HashMap;
 import java.util.Map;

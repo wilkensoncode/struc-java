@@ -1,4 +1,4 @@
-package max;
+package intro.max;
 
 public class Max {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class Max {
 }
 
 
-//    max value
+//    intro.max value
 //    Write a method, maxValue, that takes in an array of numbers as an argument.
 //    The method should return the largest number in the array.
 //    Solve this without using any built-in array methods.

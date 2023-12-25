@@ -1,4 +1,4 @@
-package pairsum;
+package arrayString.pairsum;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.List;

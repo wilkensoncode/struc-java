@@ -1,4 +1,4 @@
-package prime;
+package intro.prime;
 
 public class Prime {
     public static void main(String[] args) {
@@ -15,14 +15,14 @@ public class Prime {
 // time complexity: O(sqrt(n))
 // space complexity: O(1)
 
-//    is prime
+//    is intro.prime
 //    Write a method, isPrime, that takes in a number as an argument.
-//    The method should return a boolean indicating whether or not the given number is prime.
+//    The method should return a boolean indicating whether or not the given number is intro.prime.
 //
-//        A prime number is a number that is only divisible by two distinct
+//        A intro.prime number is a number that is only divisible by two distinct
 //        numbers: 1 and itself.
 //
-//        For example, 7 is a prime because it is only divisible by 1 and 7.
-//        For example, 6 is not a prime because it is divisible by 1, 2, 3, and 6.
+//        For example, 7 is a intro.prime because it is only divisible by 1 and 7.
+//        For example, 6 is not a intro.prime because it is divisible by 1, 2, 3, and 6.
 //
 //        You can assume that the input number is a positive integer.
