@@ -12,7 +12,6 @@ public class GetNodeValue {
         c.next = d;
 
         System.out.println(getValue(a, 2));
-
     }
 
     static class Node<T> {
