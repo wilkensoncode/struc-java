@@ -1,6 +1,6 @@
 package linkedList;
 
-public class linkedListFind {
+public class LinkedListFind {
     public static void main(String[] args) {
         Node<String> a = new Node<>("a");
         Node<String> b = new Node<>("b");
