@@ -42,7 +42,7 @@ public class ReverseList {
 //   static Node<String> reverseList(Node<String> head){
 //        Node<String> prev = null;
 //        Node<String> current = head;
-//
+//f
 //        while (current != null ){
 //            Node<String> next = current.next;
 //            current.next = prev;
