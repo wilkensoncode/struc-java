@@ -35,3 +35,10 @@ public class UniValue {
             return isUniValue(head.next, value);
     }
 }
+
+
+//Write a method, isUnivalueList, that takes in the
+// head of a linked list as an argument. The method
+// should return a boolean indicating whether or not
+// the linked list contains exactly one unique value.
+//You may assume that the input list is non-empty.
